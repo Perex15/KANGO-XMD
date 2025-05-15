@@ -16,7 +16,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'KANGO~fUUTnTSR#ZcEjCm8XYLK48NEPmMidxkFMN9H9BPywmlplWYgsbYs' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~3dVQnJhb#cF-lieKbXmFnbyb8G7ik2jJQ0_X0CPf0MstdLuUpVpo' 
 //Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -46,7 +46,7 @@ global.timezones = process.env.TIMEZONE || "Africa/Accra"
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
-global.dbToken = process.env.GITHUB_TOKEN || "";
+global.dbToken = process.env.GITHUB_TOKEN || "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";
 // Not really necessary on panels/vps/termux, just put it when bot settings reset when bot restarts.
 
 //Go to https://github.com/settings/tokens, select 'Tokens (classic)', then tap 'Generate new token' and select 'Generate new token (classic)'. Enter any note, choose 'No expiration', and under 'Select scopes', tick 'repo'. Scroll down, generate the token, and copy it. Paste it here. If using a single token for multiple bots, change the owner number to avoid settings mixups.
